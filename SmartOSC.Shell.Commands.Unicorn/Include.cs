@@ -267,9 +267,9 @@ namespace SmartOSC.Shell.Commands.Unicorn
 
         public override void Execute(CommandContext context)
         {
-            string path = context.Items[0].Paths.FullPath;
-            string database = context.Items[0].Database.ToString();
-            string name = context.Items[0].Name;
+            //string path = context.Items[0].Paths.FullPath;
+            //string database = context.Items[0].Database.ToString();
+            //string name = context.Items[0].Name;
             ItemExclude("Your Pattern");
         }
 
